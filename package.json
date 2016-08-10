@@ -4,6 +4,7 @@
   "description": "An example of using bubbleup test",
   "main": "index.js",
   "scripts": {
+    "build": "bubbleup build src/index.js",
     "test": "istanbul cover ./node_modules/.bin/bubbleup test"
   },
   "repository": {
@@ -18,7 +19,10 @@
   "homepage": "https://github.com/TylorS/bubbleup-test-example#readme",
   "devDependencies": {
     "assert": "^1.4.1",
-    "bubbleup": "^0.0.1",
+    "bubbleup": "^0.0.2",
+    "bubbleup-plugin-build-rollup": "^0.0.2",
+    "bubbleup-plugin-build-rollup-buble": "^0.0.2",
+    "bubbleup-plugin-build-rollup-umd": "^0.0.4",
     "bubbleup-plugin-test-mocha": "^0.0.2",
     "bubbleup-plugin-test-mocha-buba": "^0.0.2",
     "bubbleup-plugin-test-mocha-istanbul": "^0.0.2"
