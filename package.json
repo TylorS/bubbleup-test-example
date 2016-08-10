@@ -1,0 +1,25 @@
+{
+  "name": "bubbleup-test-example",
+  "version": "1.0.0",
+  "description": "An example of using bubbleup test",
+  "main": "index.js",
+  "scripts": {
+    "test": "bubbleup test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylorS/bubbleup-test-example.git"
+  },
+  "author": "Tylor Steinberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylorS/bubbleup-test-example/issues"
+  },
+  "homepage": "https://github.com/TylorS/bubbleup-test-example#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "bubbleup": "0.0.1",
+    "bubbleup-plugin-test-mocha": "0.0.2",
+    "bubbleup-plugin-test-mocha-buba": "0.0.2"
+  }
+}
